@@ -11,7 +11,7 @@ We apply three models to this problem. The three models: (1) matching matrix met
 
 
 ## Result
-We use different active query methods on our models. For codebook method, we try active query on: (1) low density user-item cluster, (2) low density item cluster, (3) small size item cluster. The following is the testing RMSE of codebook method among above three query strategies and a baseline (random). This figure shows that our three strategies generally outperform the baseline when we have enough number of query budgets (more than 100).
+We use different active query methods on our models. For codebook method, we try active query on: (1) low density user-item cluster, (2) low density item cluster, (3) small size item cluster. The following is the testing RMSE of codebook method among above three query strategies and a baseline (random). The figure below shows that our three strategies generally outperform the baseline when we have enough number of query budgets (more than 100).
 
 ![image2](https://github.com/cloudylai/MD_Final/blob/master/results/active_query_table_1.png)  
 
